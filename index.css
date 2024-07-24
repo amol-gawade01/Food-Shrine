@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Body{
+    scroll-behavior: smooth;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+
+
+
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -20%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -40%;
+}
+
+#radio4:checked ~ .first{
+    margin-left: -60%;
+}
+
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background: white;
+}
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background: white;
+}
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background: white;
+}
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background: white;
+}
+
+
+
+::-webkit-scrollbar{
+    width: 16px;
+   
+}
+
+::-webkit-scrollbar-track{
+    background: whitesmoke;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #fe6232;
+    border-radius: 10px;
+}
+
+.Advertise{
+    display: inline-block;
+    margin-left: 410px;
+    margin-top: 105px;
+    height: 70%;
+}
+
+#FRONT-TEXT{
+    font-size: 2em;
+    letter-spacing: 10px;
+    border-right: 2px solid;
+ 
+width: 100%;
+white-space: nowrap;
+overflow: hidden;
+animation: 
+    typing 2s steps(20),
+    cursor .4s step-end infinite alternate;
+}
+
+@keyframes cursor{
+    50% {
+        border-color: transparent;
+    }
+}
+
+@keyframes typing {
+    from {width: 0;}
+}

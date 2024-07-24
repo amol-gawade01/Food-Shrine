@@ -1,0 +1,12 @@
+# Parcel 
+- Dev build
+- Local Server 
+- HMR = Hot Module Replacement 
+- File Wathcing algo
+- Caching 
+- Image optimization 
+- Minification 
+- Bundling
+- Consistent Hashing 
+- Https
+- tree shaking
