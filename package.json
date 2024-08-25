@@ -4,7 +4,7 @@
   "description": "This is react playground",
   "scripts": {
     "start": "parcel index.html",
-    "build": "npm cache clean && parcel build index.html",
+    "build": " parcel build index.html",
     "test": "jest",
     "watch-test": "jest --watchAll"
   },
